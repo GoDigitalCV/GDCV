@@ -43,11 +43,11 @@ documentation for the same.
 ## Screenshots
 
 * Add Your Details <img
-  src="https://github.com/DiptoChakrabarty/Resume-Generator/blob/master/images/projects.png">
+  src="https://github.com/GoDigitalCV/GDCV/blob/master/images/projects.png">
 
 * Update your Details <img
-  src="https://github.com/DiptoChakrabarty/Resume-Generator/blob/master/images/Update.png">
+  src="https://github.com/GoDigitalCV/GDCV/blob/master/images/Update.png">
 
 * Delete Details <img
-  src="https://github.com/DiptoChakrabarty/Resume-Generator/blob/master/images/delete.png">
+  src="https://github.com/GoDigitalCV/GDCV/blob/master/images/delete.png">
 

@@ -40,6 +40,23 @@ parameters.
 6. In case of changing the backend routes please submit an updated routes 
 documentation for the same.
 
+## TO-DO
+
+### Front-End
+
+- [ ] Add front-end design
+- [ ] Social sharing buttons
+
+### Back-End
+
+- [ ] Develop video application
+- [ ] Add CV designs
+- [ ] Multiple Cv templates
+
+## Ideas
+
+- [ ] Build from Linkedin profile
+
 ## Screenshots
 
 * Add Your Details <img

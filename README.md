@@ -56,6 +56,7 @@ before making a change.
 - [ ] Develop video application
 - [ ] Add CV design
 - [ ] Multiple Cv templates
+- [ ] Clean development branches
 
 ## Ideas
 

@@ -143,43 +143,89 @@
         padding: 0 !important;
       }
     </style>
-    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',
+                          filename='css/main.css') }}"
+    />
 
     <link
       rel="stylesheet"
-      href="css/c-5.7.2-wp-includes-css-dist-block-library-style.min.css"
+      href="{{ url_for('static',
+                          filename='css/c-5.7.2-wp-includes-css-dist-block-library-style.min.css' ) }}"
     />
+
     <style id="wp-block-library-inline-css" type="text/css">
       .has-text-align-justify {
         text-align: justify;
       }
     </style>
+
     <link
       rel="stylesheet"
-      href="css/custom-registration-form-builder-with-submission-manager-public-css-theme_rm_matchmytheme.css"
+      href="{{ url_for('static',
+                          filename='css/custom-registration-form-builder-with-submission-manager-public-css-theme_rm_matchmytheme.css') }}"
     />
+
     <link
       rel="stylesheet"
-      href="css/custom-registration-form-builder-with-submission-manager-public-css-style_rm_front_end.css"
+      href="{{ url_for('static',
+                          filename='css/custom-registration-form-builder-with-submission-manager-public-css-style_rm_front_end.css') }}"
     />
-    <link rel="stylesheet" href="css/easy-video-player-lib-plyr.css" />
-    <link rel="stylesheet" href="css/8510.css" />
+
     <link
       rel="stylesheet"
-      href="css/goodlayers-core-plugins-combine-style.css"
+      href="{{ url_for('static',
+                          filename='css/easy-video-player-lib-plyr.css') }}"
     />
+
     <link
       rel="stylesheet"
-      href="css/goodlayers-core-include-css-page-builder.css"
+      href="{{ url_for('static',
+                          filename='css/8510.css') }}"
     />
-    <link rel="stylesheet" href="css/revslider-public-assets-css-rs6.css" />
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',
+                          filename='css/goodlayers-core-plugins-combine-style.css') }}"
+    />
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',
+                          filename='css/goodlayers-core-include-css-page-builder.css') }}"
+    />
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',
+                          filename='css/revslider-public-assets-css-rs6.css') }}"
+    />
+
     <style id="rs-plugin-settings-inline-css" type="text/css">
       #rs-demo-id {
       }
     </style>
-    <link rel="stylesheet" href="css/infinite-css-style-core.css" />
-    <link rel="stylesheet" href="css/gdlr-style-custom.css" />
-    <link rel="stylesheet" href="css/p-jetpack-9.7.1-css-jetpack.css" />
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',
+                          filename='css/infinite-css-style-core.css') }}"
+    />
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',
+                          filename='css/gdlr-style-custom.css') }}"
+    />
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',
+                          filename='css/p-jetpack-9.7.1-css-jetpack.css') }}"
+    />
+
     <script>
       /* <![CDATA[ */
       var rcewpp = {
@@ -192,37 +238,37 @@
     </script>
     <script
       type="text/javascript"
-      src="js/jquery.min.js"
+      src="{{ url_for('static', filename='js/jquery.min.js') }}"
       id="jquery-core-js"
     ></script>
     <script
       type="text/javascript"
-      src="js/jquery-migrate.min.js"
+      src="{{ url_for('static', filename='js/jquery-migrate.min.js') }}"
       id="jquery-migrate-js"
     ></script>
     <script
       type="text/javascript"
-      src="js/core.min.js"
+      src="{{ url_for('static', filename='js/core.min.js') }}"
       id="jquery-ui-core-js"
     ></script>
     <script
       type="text/javascript"
-      src="js/mouse.min.js"
+      src="{{ url_for('static', filename='js/mouse.min.js') }}"
       id="jquery-ui-mouse-js"
     ></script>
     <script
       type="text/javascript"
-      src="js/sortable.min.js"
+      src="{{ url_for('static', filename='js/sortable.min.js') }}"
       id="jquery-ui-sortable-js"
     ></script>
     <script
       type="text/javascript"
-      src="js/tabs.min.js"
+      src="{{ url_for('static', filename='js/tabs.min.js') }}"
       id="jquery-ui-tabs-js"
     ></script>
     <script
       type="text/javascript"
-      src="js/datepicker.min.js"
+      src="{{ url_for('static', filename='js/datepicker.min.js') }}"
       id="jquery-ui-datepicker-js"
     ></script>
     <script type="text/javascript" id="jquery-ui-datepicker-js-after">
@@ -279,12 +325,12 @@
     </script>
     <script
       type="text/javascript"
-      src="js/effect.min.js"
+      src="{{ url_for('static', filename='js/effect.min.js') }}"
       id="jquery-effects-core-js"
     ></script>
     <script
       type="text/javascript"
-      src="js/effect-slide.min.js"
+      src="{{ url_for('static', filename='js/effect-slide.min.js') }}"
       id="jquery-effects-slide-js"
     ></script>
     <script type="text/javascript" id="rm_front-js-extra">
@@ -306,20 +352,24 @@
     </script>
     <script
       type="text/javascript"
-      src="js/script_rm_front.js"
+      src="{{ url_for('static', filename='js/script_rm_front.js') }}"
       id="rm_front-js"
     ></script>
     <script
       type="text/javascript"
-      src="js/plyr.min.js"
+      src="{{ url_for('static', filename='js/plyr.min.js') }}"
       id="plyr-js-js"
     ></script>
     <script
       type="text/javascript"
-      src="js/rbtools.min.js"
+      src="{{ url_for('static', filename='js/rbtools.min.js') }}"
       id="tp-tools-js"
     ></script>
-    <script type="text/javascript" src="js/rs6.min.js" id="revmin-js"></script>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename='js/rs6.min.js') }}"
+      id="revmin-js"
+    ></script>
     <!--[if lt IE 9]>
       <script
         type="text/javascript"
@@ -837,7 +887,11 @@
           <div class="infinite-logo infinite-item-pdlr">
             <div class="infinite-logo-inner">
               <a href="#"
-                ><img src="images/logo.jpg" alt="" width="294" height="240"
+                ><img
+                  src="/static/images/logo.jpg"
+                  alt=""
+                  width="294"
+                  height="240"
               /></a>
             </div>
           </div>
@@ -973,7 +1027,7 @@
                   <div class="infinite-logo-inner">
                     <a href="#"
                       ><img
-                        src="images/logo.jpg"
+                        src="/static/images/logo.jpg"
                         alt=""
                         width="294"
                         height="240"
@@ -1286,7 +1340,7 @@
                               <p>
                                 <img
                                   class="alignnone wp-image-4139 size-full"
-                                  src="images/chevron_0002_Vector-Smart-Object.jpg"
+                                  src="/static/images/chevron_0002_Vector-Smart-Object.jpg"
                                   alt=""
                                   width="1726"
                                   height="416"
@@ -1339,7 +1393,7 @@
                               style="border-width: 0px"
                             >
                               <img
-                                src="images/GoDigital-Web-Visual1-1-copy.jpg"
+                                src="/static/images/GoDigital-Web-Visual1-1-copy.jpg"
                                 alt=""
                                 width="592"
                                 height="466"
@@ -1379,7 +1433,7 @@
                               <p>
                                 <img
                                   class="alignnone wp-image-4141 size-full"
-                                  src="images/chevron_0001_Vector-Smart-Object.jpg"
+                                  src="/static/images/chevron_0001_Vector-Smart-Object.jpg"
                                   alt=""
                                   width="1726"
                                   height="416"
@@ -1432,7 +1486,7 @@
                               style="border-width: 0px"
                             >
                               <img
-                                src="images/2-1-copy.jpg"
+                                src="/static/images/2-1-copy.jpg"
                                 alt=""
                                 width="592"
                                 height="466"
@@ -1472,7 +1526,7 @@
                               <p>
                                 <img
                                   class="alignnone wp-image-4140 size-full"
-                                  src="images/chevron_0000_Vector-Smart-Object.jpg"
+                                  src="/static/images/chevron_0000_Vector-Smart-Object.jpg"
                                   alt=""
                                   width="1726"
                                   height="416"
@@ -1525,7 +1579,7 @@
                               style="border-width: 0px"
                             >
                               <img
-                                src="images/3-1-copy.jpg"
+                                src="/static/images/3-1-copy.jpg"
                                 alt=""
                                 width="790"
                                 height="610"
@@ -1696,7 +1750,7 @@
                                 <a href="#"
                                   ><img
                                     class="alignnone size-full wp-image-2645"
-                                    src="images/Img-CV-B_2x.png"
+                                    src="/static/images/Img-CV-B_2x.png"
                                     alt=""
                                     width="1226"
                                     height="1305"
@@ -2068,7 +2122,7 @@
                               <p>
                                 <img
                                   class="wp-image-4133 aligncenter"
-                                  src="images/Screenshot-2020-11-19-at-09.30.40.png"
+                                  src="/static/images/Screenshot-2020-11-19-at-09.30.40.png"
                                   alt=""
                                   width="97"
                                   height="51"
@@ -2160,7 +2214,7 @@
                               <p style="text-align: center">
                                 <img
                                   class="alignnone wp-image-4134"
-                                  src="images/Screenshot-2020-11-19-at-09.30.47.png"
+                                  src="/static/images/Screenshot-2020-11-19-at-09.30.47.png"
                                   alt=""
                                   width="85"
                                   height="41"
@@ -2223,19 +2277,27 @@
         }
       }
     </script>
-    <link rel="stylesheet" href="css/sticky-buttons-assets-css-style.min.css" />
+
     <link
       rel="stylesheet"
-      href="css/sticky-buttons-assets-vendors-fontawesome-css-fontawesome-all.min.css"
+      href="{{ url_for('static',
+                          filename='css/sticky-buttons-assets-css-style.min.css') }}"
     />
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',
+                          filename='css/sticky-buttons-assets-vendors-fontawesome-css-fontawesome-all.min.css') }}"
+    />
+
     <script
       type="text/javascript"
-      src="js/photon.min.js"
+      src="{{ url_for('static', filename='js/photon.min.js') }}"
       id="jetpack-photon-js"
     ></script>
     <script
       type="text/javascript"
-      src="js/script.js"
+      src="{{ url_for('static', filename='js/script.js') }}"
       id="gdlr-core-plugin-js"
     ></script>
     <script type="text/javascript" id="gdlr-core-page-builder-js-extra">
@@ -2249,11 +2311,13 @@
       };
       /* ]]> */
     </script>
+
     <script
       type="text/javascript"
-      src="js/page-builder.js"
+      src="{{ url_for('static', filename='js/page-builder.js') }}"
       id="gdlr-core-page-builder-js"
     ></script>
+
     <script type="text/javascript" id="infinite-script-core-js-extra">
       /* <![CDATA[ */
       var infinite_script_core = {
@@ -2263,12 +2327,12 @@
     </script>
     <script
       type="text/javascript"
-      src="js/script-core.js"
+      src="{{ url_for('static', filename='js/script-core.js') }}"
       id="infinite-script-core-js"
     ></script>
     <script
       type="text/javascript"
-      src="js/intersectionobserver-polyfill.min.js"
+      src="{{ url_for('static', filename='js/intersectionobserver-polyfill.min.js') }}"
       id="jetpack-lazy-images-polyfill-intersectionobserver-js"
     ></script>
     <script type="text/javascript" id="jetpack-lazy-images-js-extra">
@@ -2281,15 +2345,18 @@
     </script>
     <script
       type="text/javascript"
-      src="js/lazy-images.min.js"
+      src="{{ url_for('static', filename='js/lazy-images.min.js') }}"
       id="jetpack-lazy-images-js"
     ></script>
     <script
       type="text/javascript"
-      src="js/wp-embed.min.js"
+      src="{{ url_for('static', filename='js/wp-embed.min.js') }}"
       id="wp-embed-js"
     ></script>
-    <script src="js/e-202123.js" defer></script>
+    <script
+      src="{{ url_for('static', filename='js/e-202123.js') }}"
+      defer
+    ></script>
     <script>
       _stq = window._stq || [];
       _stq.push([

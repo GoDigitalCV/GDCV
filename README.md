@@ -18,11 +18,13 @@ V 0.0.1
 3. Install all packages `pip install -r requirements.txt`
 4. Remove site.db file to start fresh database `rm resume/site.db`
 5. Setup Env Variables:
-
-- Create file .env inside folder resume
-- Add the following `sh MAIL_USERNAME="{{ your gmail username }}" PASSWORD="{{ your password }}" `
-
-6. Run webserver `sh python3 app.py `
+   - Create file .env inside folder resume
+   - Add the following
+     ```
+     MAIL_USERNAME="{{ your gmail username }}"
+     PASSWORD="{{ your password }}"
+     ```
+6. Run webserver `python3 app.py `
 7. Run the program and go to localhost:5000
 
 ## Contributing
@@ -59,6 +61,7 @@ before making a change.
 - [ ] Add CV design
 - [ ] Multiple Cv templates
 - [ ] Clean development branches
+- [ ] squash SQLALCHEMY_TRACK_MODIFICATIONS overheads
 
 ## Ideas
 

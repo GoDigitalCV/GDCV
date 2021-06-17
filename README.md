@@ -2,7 +2,7 @@
 
 ## About
 
-V 0.0.1
+V 0.0.2
 
 ### Built With
 

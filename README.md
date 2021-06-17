@@ -56,6 +56,7 @@ before making a change.
 ### Back-End
 
 - [x] Create master page template (extend layout.html)
+- [ ] Fix pdf download bug
 - [ ] Deploy to Heroku for testing
 - [ ] Develop video application
 - [ ] Add CV design

@@ -9,6 +9,7 @@ V 0.0.1
 - Flask
 - sqlalchemy
 - Python3
+- Javascript
 
 ### Installation
 
@@ -52,6 +53,7 @@ before making a change.
 ### Back-End
 
 - [ ] Create master page template (extend layout.html)
+- [ ] Layout footer not displaying
 - [ ] Deploy to Heroku for testing
 - [ ] Develop video application
 - [ ] Add CV design

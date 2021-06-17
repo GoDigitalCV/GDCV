@@ -6,10 +6,17 @@ V 0.0.2
 
 ### Built With
 
+#### Backend Stack
+
 - Flask
 - sqlalchemy
 - Python3
+
+#### Frontend Stack
+
 - Javascript
+- Bootstrap
+- HTML/CSS
 
 ### Installation
 

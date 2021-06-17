@@ -50,6 +50,7 @@ before making a change.
 
 - [ ] Fix home page video (not displayed, index.html)
 - [x] Add front-end design
+- [ ] Add CV css design
 - [ ] Layout footer not displaying
 - [ ] Social sharing buttons
 
@@ -59,7 +60,6 @@ before making a change.
 - [ ] Fix pdf download bug
 - [ ] Deploy to Heroku for testing
 - [ ] Develop video application
-- [ ] Add CV design
 - [ ] Multiple Cv templates
 - [ ] Clean development branches
 - [ ] squash SQLALCHEMY_TRACK_MODIFICATIONS overheads

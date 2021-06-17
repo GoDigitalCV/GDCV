@@ -47,6 +47,16 @@ h6 {
   color: #444444;
 }
 
+/* Main Link Color */
+
+.infinite-body a {
+  color: #323232 !important;
+}
+
+.infinite-body a:hover {
+  color: #428bca !important;
+}
+
 a.article-title:hover {
   color: #428bca;
   text-decoration: none;

@@ -4,35 +4,19 @@
 <h2>SITE_MAP</h2>
 <div>
   {% if current_user.is_authenticated %}
-  <a href="/accounts" class="btn btn-outline-warning" style="float: left"
-    >Update Account details Here</a
-  >
-  <br />
-  <br />
-  <br />
-  <a href="/resume/new" class="btn btn-outline-danger" style="float: left"
-    >Create CV</a
-  >
-  <br />
-  <br />
-  <br />
-  <a href="/download" class="btn btn-outline-success" style="float: center"
-    >Generate PDF of CV</a
-  >
-  <br />
-  <br />
-  <br />
-  <a href="/share" class="btn btn-outline-info" style="float: center"
-    >Share CV</a
-  >
+  <ul>
+    <li><a href="/resume/new">Create CV</a></li>
+    <li><a href="/accounts">Update Account details Here</a></li>
+    <li><a href="/resume">View CV</li>
+    <li><a href="/download">Generate PDF of CV</a></li>
+    <li><a href="/share">Share CV</a></li>
+  </ul>
 
   {% else %}
-  <a href="/login" class="btn btn-outline-success" style="float: left"
-    >Login to Continue</a
-  >
-  <a href="/register" class="btn btn-outline-info" style="float: right"
-    >Register Here
-  </a>
+  <ul>
+    <li><a href="/login">Login to Continue</a></li>
+    <li><a href="/register">Register Here</a></li>
+  </ul>
 
   {% endif %}
 </div>

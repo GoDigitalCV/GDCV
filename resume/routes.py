@@ -19,6 +19,11 @@ def hello():
     return render_template("index.html")
 
 
+@app.route("/sitemap", methods=['GET', 'POST'])
+def sitemap():
+    return render_template("sitemap.html")
+
+
 @app.route("/register", methods=['GET', 'POST'])
 def register():
     if current_user.is_authenticated:

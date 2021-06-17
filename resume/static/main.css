@@ -1,7 +1,7 @@
 body {
   background: #fafafa;
   color: #333333;
-  margin-top: 5rem;
+  margin-top: 50rem;
 }
 
 h1,
@@ -11,6 +11,12 @@ h4,
 h5,
 h6 {
   color: #444444;
+}
+
+.container {
+  width: 75%;
+  padding-top: 17rem;
+  margin-bottom: 2rem;
 }
 
 .bg-steel {

@@ -9,6 +9,7 @@ V 0.0.1
 - Flask
 - sqlalchemy
 - Python3
+- Javascript
 
 ### Installation
 
@@ -45,13 +46,14 @@ before making a change.
 
 ### Front-End
 
-- [ ] Fix home page video
+- [ ] Fix home page video (not displayed, index.html)
 - [x] Add front-end design
+- [ ] Layout footer not displaying
 - [ ] Social sharing buttons
 
 ### Back-End
 
-- [ ] Create master page template (extend layout.html)
+- [x] Create master page template (extend layout.html)
 - [ ] Deploy to Heroku for testing
 - [ ] Develop video application
 - [ ] Add CV design

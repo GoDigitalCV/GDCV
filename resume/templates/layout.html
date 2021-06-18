@@ -1202,45 +1202,36 @@
           
         </div>
 
+        <!-- CV TABS -->
+        <!-- TODO flask code, if page title = ... add .active -->
+
         {%if title == "New Resume" or title=="Projects" or title=="Education" or
         title=="Experience" or title == "Skills" or title == "Acheivements" %}
+
         <div class="col-md-4">
-          <div class="content-section">
-            <a
-              class="list-group-item list-group-item-light"
-              class="active"
-              href="/resume/new"
-              >Home</a
-            >
-            <a
-              class="list-group-item list-group-item-light"
-              href="/resume/new/education"
-              >Education</a
-            >
-            <a
-              class="list-group-item list-group-item-light"
-              href="/resume/new/experience"
-              >Experience</a
-            >
-            <a
-              class="list-group-item list-group-item-light"
-              href="/resume/new/projects"
-              >Projects</a
-            >
-            <a
-              class="list-group-item list-group-item-light"
-              href="/resume/new/skills"
-              >Skills</a
-            >
-            <a
-              class="list-group-item list-group-item-light"
-              href="/resume/new/acheive"
-              >Acheivements</a
-            >
-          </div>
+
         </div>
 
+        <!-- <div class="col-md-12 list-group list-group-horizontal"> -->
+          <!-- <div class="content-section"> -->
+              <a class="list-group-item list-group-item-light"
+                 href="/resume/new">Personal Details</a>
+              <a class="list-group-item list-group-item-light"
+                 href="/resume/new/education">Education</a>
+              <a class="list-group-item list-group-item-light"
+                  href="/resume/new/experience">Experience</a>
+              <a class="list-group-item list-group-item-light"
+                 href="/resume/new/projects">Projects</a>
+              <a class="list-group-item list-group-item-light"
+                 href="/resume/new/skills">Skills</a>
+              <a class="list-group-item list-group-item-light"
+                 href="/resume/new/acheive">Acheivements</a>
+          <!-- </div> -->
+        <!-- </div> -->
+
         {% endif %}
+
+        <!-- CV TABS -->
       </div>
 
       {% block content %} {% endblock %}

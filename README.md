@@ -57,6 +57,7 @@ before making a change.
 
 - [ ] Fix home page video (not displayed, index.html)
 - [x] Add front-end design
+- [ ] Fix edit CV menu button alignment
 - [ ] Add CV css design
 - [ ] Layout footer not displaying
 - [ ] Social sharing buttons
